@@ -1,69 +1,116 @@
-body{
-    font-family: 'Ubuntu', sans-serif;
+body {
+	margin: 0;
 }
 
-.container{
-    background-image: url(../img/pattern.png);
-    height: 130px;
-    background-color: rgb(78, 160, 255);
-    background-size:35%;
+main {
+	margin: 10px;
 }
 
-#logo{
-    width: 200px;
-    margin-top: 60px;
+footer {
+	margin: 10px;
 }
 
-#titolo{
-    font-size: 50px;
-    margin-bottom: 1px;
+p {
+	margin-top: 0;
+	line-height: 1.2;
 }
 
-.blue{
-    color:rgb(88, 174, 231);
+ul {
+	padding-left: 20px;
 }
 
-#autore{
-    margin-bottom: 5px;
+li {
+	line-height: 1.2;
 }
 
-#data{
-    font-size: 10px;
-    margin-bottom: 30px;
+table {
+	border: none;
+	border-collapse: separate;
+	border-spacing: 0px;
 }
 
-.descrizione{
-    font-size: 10px;
+tr {
+	text-align: left;
+	height: 55px;
+}
+tr:nth-child(even) {
+	background-color: rgba(88, 174, 231, 0.4);
 }
 
-.evidenziato{
-    background-color: yellow;
+tr:first-child {
+	background-color: rgb(88, 174, 231);
+	height: 20px;
+	color: white;
 }
 
-.spiegzione{
-    margin-bottom: 30px;
-    margin-top: 30px;
+.container {
+	background-image: url(../img/pattern.png);
+	height: 130px;
+	background-color: rgb(78, 160, 255);
+	background-size: 35%;
 }
 
-.table{
-
+.logo {
+	width: 200px;
+	margin-top: 60px;
+	margin-left: 10px;
 }
 
-.table-blu{
-    background-color: rgb(33, 168, 229);
+.title {
+	font-size: 48px;
+	margin-bottom: 1px;
+	line-height: 1.2;
 }
 
-.table-body{
-    background-color: rgb(178, 228, 242);
+.author {
+	margin-bottom: 0;
+	font-size: 18px;
+	color: gray;
 }
 
-.ultimo-paragrafo{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.date {
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: gray;
 }
 
-.correlati{
-    color: grey;
-    font-weight: 800;
+.description {
+	font-size: 14px;
+	margin-bottom: 0;
 }
 
+.highlighted {
+	background-color: yellow;
+}
+
+.text {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.first-cell {
+	width: 25%;
+}
+
+.second-cell {
+	width: 25%;
+}
+
+.last-paragraph {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.correlati {
+	color: grey;
+	font-weight: 800;
+}
+.wrapper-image {
+	position: relative;
+}
+.top-left {
+	position: absolute;
+	top: 0;
+	left: 16px;
+	color: white;
+}
