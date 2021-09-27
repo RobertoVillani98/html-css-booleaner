@@ -36,3 +36,23 @@ body{
     font-size: 10px;
 }
 
+.evidenziato{
+    background-color: yellow;
+}
+
+.spiegzione{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.table{
+    
+}
+
+.table-blu{
+    background-color: rgb(33, 168, 229);
+}
+
+.table-body{
+    background-color: rgb(178, 228, 242);
+}
