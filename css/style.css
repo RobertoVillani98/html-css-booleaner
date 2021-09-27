@@ -1,3 +1,12 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
+
+.container{
+    background-image: url(../img/pattern.png);
+    height: 130px;
+    background-color: rgb(78, 160, 255);
+    background-size:35%;
+}
+
+
