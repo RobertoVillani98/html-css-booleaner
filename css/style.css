@@ -14,3 +14,25 @@ body{
     margin-top: 60px;
 }
 
+#titolo{
+    font-size: 50px;
+    margin-bottom: 1px;
+}
+
+.blue{
+    color:rgb(88, 174, 231);
+}
+
+#autore{
+    margin-bottom: 5px;
+}
+
+#data{
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+.descrizione{
+    font-size: 10px;
+}
+
