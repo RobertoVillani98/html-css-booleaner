@@ -46,7 +46,7 @@ body{
 }
 
 .table{
-    
+
 }
 
 .table-blu{
@@ -56,3 +56,14 @@ body{
 .table-body{
     background-color: rgb(178, 228, 242);
 }
+
+.ultimo-paragrafo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.correlati{
+    color: grey;
+    font-weight: 800;
+}
+
